@@ -21,7 +21,7 @@
 
 
 	//inserting data
-	$query = ("INSERT INTO pet VALUES($name, $owner, $species, $sex, $birth, $death)");
+	$query = ("INSERT INTO pet VALUES('$name', '$owner', '$species', '$sex', '$birth', '$death')");
 
 	mysqli_query($link, $query);
 
